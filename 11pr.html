@@ -1,0 +1,12 @@
+<button onclick="openWindow()">Открыть</button>
+<script>
+
+function openWindow(){
+    var win = window.open('https://ya.ru', 'Яндекс',  'width=500,height=200,left=375,top=330');
+    setTimeout(function(){
+        win.close()
+    }, 5000);
+    return false;
+}
+</script>
+
